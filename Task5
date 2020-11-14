@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package groupeproject;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Leisly Pino
+ */
+public class GroupEproject {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // 5) Ask user his email (and  check if it is valid ( Should have ‘@’ ) if not output ( “wrong”) 
+         Scanner myKB = new Scanner(System.in);
+         String email;
+         System.out.println("What is your e-mail? ");
+         email = myKB.nextLine();
+    int length = email.length();
+    char value;
+   
+    for(char i = 0; i < length; i++)
+    {
+         value = email.charAt(i);
+        if(value == '@' && i == 0){
+        System.out.println("Your e-mail is wrong");
+        break;
+        }
+    	if(value == '@')
+    	{
+    	System.out.println("Your e-mail is correct");
+    	break;
+    	}
+    	else if(i == length-1){
+    	 System.out.println("Your e-mail is wrong");	
+    	 break;
+    }
+     
+}
+    }
+}
