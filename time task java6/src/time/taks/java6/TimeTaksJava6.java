@@ -34,6 +34,7 @@ public class TimeTaksJava6 {
         // TODO code application logic here
         
        xiaoHuiMethod();
+        System.out.println("test,new changed! ");
     
    }  
 }
