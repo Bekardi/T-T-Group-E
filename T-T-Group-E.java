@@ -9,7 +9,7 @@ public class Bekezhan {
             System.out.println("What is your name?");
             while(userKB.hasNextInt()){
                 
-                System.Err.println("It is not a name, please try again!");
+                System.err.println("It is not a name, please try again!");
                 userKB.next();
             }
             
@@ -18,7 +18,7 @@ public class Bekezhan {
             while(userKB.hasNextInt()){
                 
                 userKB.next();
-                System.Err.println("It is not a surname, please try again!");
+                System.err.println("It is not a surname, please try again!");
               
             }
             String surname = userKB.next();
