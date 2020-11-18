@@ -6,10 +6,11 @@ Java Project
  * and open the template in the editor.
  */
 package groupeproject;
+import
 
 /**
  *
- * @author админ
+ * @author admin
  */
 public class GroupEproject {
 
@@ -18,6 +19,7 @@ public class GroupEproject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
     }
     
 }
