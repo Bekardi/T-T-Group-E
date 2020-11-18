@@ -10,7 +10,7 @@ import
 
 /**
  *
- * @author admin
+ * @author Kevin Leira 
  */
 public class GroupEproject {
 
@@ -18,7 +18,7 @@ public class GroupEproject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Changes to the main 
         Scanner scan = new Scanner(System.in);
     }
     
