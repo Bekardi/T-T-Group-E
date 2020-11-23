@@ -14,11 +14,8 @@ import javax.swing.JOptionPane;
  */
 public class GroupEproject {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // 5) Ask user his email (and  check if it is valid ( Should have ‘@’ ) if not output ( “wrong”) 
+    static void leislyPinoMethod(){
+// 5) Ask user his email (and  check if it is valid ( Should have ‘@’ ) if not output ( “wrong”) 
          Scanner myKB = new Scanner(System.in);
          String email;
          System.out.println("What is your e-mail? ");
@@ -41,8 +38,13 @@ public class GroupEproject {
     	else if(i == length-1){
     	 System.out.println("Your e-mail is wrong");	
     	 break;
+        }     
     }
-     
-}
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       
+       leislyPinoMethod();
     }
 }
