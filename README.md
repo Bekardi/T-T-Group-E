@@ -13,14 +13,24 @@ import
  * @author Kevin Leira 
  */
 public class GroupEproject {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // Changes to the main 
-        Scanner scan = new Scanner(System.in);
-    }
+   static void kevinMethod(){
+       System.out.println("Tthis is Kevin's Method!");
+   }
     
+    public static void main(String[] args) { 
+        kevinMethod()
+        // Scanner for readign input 
+        Scanner myKb = new Scanner(System.in);
+
+        System.out.println("Hey! How old are you?"); //Asks the user for their age
+        keyInput = myKb.hasNextInt();
+        
+        if ((keyInput >= 0) && (keyInput <= 17>)){ //For integer between this range System will print "too young"
+            System.out.println("You're too young!");}
+        if ((keyInput >= 18) && (keyInput <=100)){
+            System.out.println("WOOOWW! Your age is " + keyInput + "That's very nice");} //For input between this range System will print a messsage an age introduced     
+        else { // Anything else is considered invalid!!!
+            System.err.println("I'm so sorry but this is not valid");}
 }
-change
+}
+}
