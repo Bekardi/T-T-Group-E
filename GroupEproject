@@ -32,6 +32,24 @@ public class GroupEproject {
             System.out.println("Hey " + name + " " + surname + ", nice to meet you!");
             
         }
+/**Task 2
+ * @author Kevin Leira 2020364
+ */
+    static void kevinLeiraMethod(){
+        // Scanner for readign input 
+        Scanner myKb = new Scanner(System.in);
+        int keyInput; 
+        System.out.println("Hey! How old are you?"); //Asks the user for their age
+        keyInput = myKb.nextInt();
+
+        if (keyInput >= 0 && keyInput <= 17){ //For integer between this range System will print "too young"
+            System.out.println("You're too young!");}
+        if ((keyInput >= 18) && (keyInput <=100)){
+            System.out.println("WOOOWW! Your age is " + keyInput + " That's very nice");} //For input between this range System will print a messsage an age introduced     
+        else { // Anything else is considered invalid!!!
+            System.err.println("I'm so sorry but this is not valid");}
+}
+    
     
 /**Task 3
  * @author Shivam Kumar 2020359
@@ -128,12 +146,12 @@ public class GroupEproject {
     public static void main(String[] args) {
     
         bekezhanMethod(); // Task 1
-        // Task 2
+        kevinLeiraMethod();// Task 2
         shivamKumarMethod(); // Task 3
         fernandoValleMethod(); // Task 4
         leislyPinoMethod(); // Task 5
         xiaoHuiMethod(); // Task 6
-        System.out.println("test,new changed! ");
+        System.out.println("Test,new changed! ");
         // Task 7 
     }
 }
