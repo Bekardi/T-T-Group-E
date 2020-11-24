@@ -152,6 +152,6 @@ public class GroupEproject {
         leislyPinoMethod(); // Task 5
         xiaoHuiMethod(); // Task 6
         System.out.println("Test,new changed! ");
-        // Task 7 
+        
     }
 }
